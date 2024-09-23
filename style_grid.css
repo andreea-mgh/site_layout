@@ -41,6 +41,22 @@ footer {
 .sidebar button:hover {
     background-color: #ccc;
 }
+
+button.switcher {
+    display: block;
+    width: 100%;
+    padding: 10px;
+    margin-bottom: 10px;
+    background-color: #4CAF50;
+    color: white;
+    border: none;
+    cursor: pointer;
+}
+button:hover.switcher  {
+    background-color: white;
+    color: #4CAF50;
+}
+
 .content {
     padding: 2em;
     background-color: #eaeaea;

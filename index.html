@@ -4,9 +4,12 @@
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Flexbox/Grid Layout Switcher</title>
-    <link rel="stylesheet" href="style_flex.css">
+    <link rel="stylesheet" href="style_grid.css" id="grid_style" disabled>
+    <link rel="stylesheet" href="style_flex.css" id="flex_style">
 </head>
 <body>
+
+    <script src="toggle.js"></script>
 
     <header>
         <h1>Header</h1>
@@ -20,7 +23,8 @@
         </div>
         <div class="content">
             <h2>Content</h2>
-            <p>...</p>
+            <p>This page was built with both Flexbox and Grid layouts. Switch between them using this button.</p>
+            <button class="switcher toggle-btn" onclick="toggleLayout()">Switch Layout</button>
         </div>
     </div>
 
